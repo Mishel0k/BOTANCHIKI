@@ -40,7 +40,7 @@ ul{
 	z-index: 4;
 }
 .logo img{
-	width: 80%;
+	width: 100%;
 }
 .search{
 	position: absolute;
@@ -285,7 +285,7 @@ ul{
 	margin-top: 30px;
 }
 .t_input{
-    width: 700px;
+    width: 500px;
     height: 50px;
     font-size: 16px;
     border-radius: 50px;
@@ -320,15 +320,39 @@ ul{
 }
 .t_cont *{
 	display: block;
-	margin: 50px auto;
+	margin: 30px auto;
 }
 .t_but{
-	border: none;
-	background: #fff;
+	border-color: #101010;
+	background: none;
 	border-radius: 50px;
 	height: 50px;
 	width: 20%;
-	margin: 100px auto 0;
+	margin: 50px auto 0;
+}
+.t_but1{
+	border-color: #101010;
+	background: none;
+	border-radius: 50px;
+	height: 50px;
+	width: 20%;
+	margin: 50px auto 0;
+}
+.t_but:focus{
+	outline: none;
+}
+.t_but1:focus{
+	outline: none;
+}
+.t_but1:hover{
+	background: #ff0009;
+	color: #fbfbfb;
+	transition: 0.8s; 
+}
+.t_but:hover{
+	background: #101010;
+	color: #fbfbfb;
+	transition: 0.8s; 
 }
 .footer{
 	height: 150px;
@@ -368,6 +392,18 @@ ul{
 	left: 50%;
 	color: #101010;
 	transform: translateX(-50%);
+}
+.back_pp{
+	font-size: 20px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	color: #101010;
+	transform: translateX(-50%);
+}
+.p_topp{
+	top: 50px;
+	font-size: 40px;
 }
 .p_top{
 	top: 50px;
