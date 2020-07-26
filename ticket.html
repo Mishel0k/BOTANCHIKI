@@ -43,6 +43,21 @@
                 case "startrek":
                     s = "Звездный путь";
                     break;
+                case "zw":
+                    s = "Звездные войны";
+                    break;
+                case "du":
+                    s = "Джон Уик";
+                    break;
+                case "id":
+                    s = "Индиана джонс";
+                    break;
+                case "hp":
+                    s = "Гарри Поттер";
+                    break;
+                case "bt":
+                    s = "Бэтмен";
+                    break;
             };
             $(".film").text(s);
             $(".order").append(s + "<br>");
@@ -51,6 +66,7 @@
                 if(valid){
                     console.log("Фильм:" + s);
                     console.log("Места:" + seats);
+                    console.log("Имя:" + $(".t_name").val());
                     console.log("Номер:" + $(".t_input").val());
                 }
             });
@@ -94,13 +110,14 @@
             <div class="t_text">
                 На ваш телефон будет отправлен билет
             </div>
+            <input type="text" name="number" placeholder="Ваше имя" class="t_name">
             <input type="text" name="number" placeholder="8 888 888-88-88" class="t_input">
             <p class="valid"><br></p>
             <p class="order"></p>
-            <a href="index.html">
-                <button class="t_but1">ОТМЕНИТЬ</button>
-            </a>
-            <button class="t_but">ПОЛУЧИТЬ</button>
+            <div class="d-flex justify-content-center">
+                <a class="t_a" href="index.html"><button class="t_but1">ОТМЕНИТЬ</button></a>
+                <button class="t_but">ПОЛУЧИТЬ</button>
+            </div>
         </div>
     </section>
     <footer class="footer">

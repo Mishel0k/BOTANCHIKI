@@ -46,6 +46,21 @@
 				case "startrek":
 					s = "Звездный путь";
 					break;
+				case "zw":
+					s = "Звездные войны";
+					break;
+				case "du":
+					s = "Джон Уик";
+					break;
+				case "id":
+					s = "Индиана джонс";
+					break;
+				case "hp":
+					s = "Гарри Поттер";
+					break;
+				case "bt":
+					s = "Бэтмен";
+					break;
 			};
 			$(".film").text(s);
 			url = "ticket.html?film="  + film;
@@ -100,29 +115,29 @@
 					<div class="seat busy"><p>4</p></div>
 					<div class="seat busy"><p>5</p></div>
 					<div class="seat busy"><p>6</p></div>
-					<div class="seat busy"><p>7</p></div>
+					<div class="seat avail"><p>7</p></div>
 					<div class="seat busy"><p>8</p></div>
 				</div>
 				<div class="r d-flex justify-content-center" id="r2">
 					<div class="seat busy"><p>1</p></div>
 					<div class="seat busy"><p>2</p><p></p></div>
 					<div class="seat busy"><p>3</p></div>
-					<div class="seat busy"><p>4</p></div>
-					<div class="seat busy"><p>5</p></div>
-					<div class="seat busy"><p>6</p></div>
+					<div class="seat avail"><p>4</p></div>
+					<div class="seat avail"><p>5</p></div>
+					<div class="seat avail"><p>6</p></div>
 					<div class="seat busy"><p>7</p></div>
 					<div class="seat busy"><p>8</p></div>
 					<div class="seat busy"><p>9</p></div>
 				</div>
 				<div class="r d-flex justify-content-center" id="r3">
-					<div class="seat busy"><p>1</p></div>
-					<div class="seat busy"><p>2</p></div>
+					<div class="seat avail"><p>1</p></div>
+					<div class="seat avail"><p>2</p></div>
 					<div class="seat busy"><p>3</p></div>
 					<div class="seat busy"><p>4</p></div>
 					<div class="seat busy"><p>5</p></div>
 					<div class="seat busy"><p>6</p></div>
-					<div class="seat busy"><p>7</p></div>
-					<div class="seat busy"><p>8</p></div>
+					<div class="seat avail"><p>7</p></div>
+					<div class="seat avail"><p>8</p></div>
 					<div class="seat busy"><p>9</p></div>
 				</div>
 				<div class="r d-flex justify-content-center" id="r4">
@@ -130,7 +145,7 @@
 					<div class="seat busy"><p>2</p></div>
 					<div class="seat busy"><p>3</p></div>
 					<div class="seat busy"><p>4</p></div>
-					<div class="seat busy"><p>5</p></div>
+					<div class="seat avail"><p>5</p></div>
 					<div class="seat busy"><p>6</p></div>
 					<div class="seat busy"><p>7</p></div>
 					<div class="seat busy"><p>8</p></div>
@@ -138,49 +153,49 @@
 				</div>
 				<div class="r d-flex justify-content-center" id="r5">
 					<div class="seat busy"><p>1</p></div>
-					<div class="seat busy"><p>2</p></div>
+					<div class="seat avail"><p>2</p></div>
 					<div class="seat busy"><p>3</p></div>
 					<div class="seat busy"><p>4</p></div>
 					<div class="seat busy"><p>5</p></div>
 					<div class="seat busy"><p>6</p></div>
 					<div class="seat busy"><p>7</p></div>
-					<div class="seat busy"><p>8</p></div>
+					<div class="seat avail"><p>8</p></div>
 					<div class="seat busy"><p>9</p></div>
-					<div class="seat busy"><p>10</p></div>
-					<div class="seat busy"><p>11</p></div>
+					<div class="seat avail"><p>10</p></div>
+					<div class="seat avail"><p>11</p></div>
 				</div>
 				<div class="r d-flex justify-content-center" id="r6">
-					<div class="seat busy"><p>1</p></div>
-					<div class="seat busy"><p>2</p></div>
+					<div class="seat avail"><p>1</p></div>
+					<div class="seat avail"><p>2</p></div>
 					<div class="seat busy"><p>3</p></div>
 					<div class="seat busy"><p>4</p></div>
 					<div class="seat busy"><p>5</p></div>
-					<div class="seat busy"><p>6</p></div>
-					<div class="seat busy"><p>7</p></div>
+					<div class="seat avail"><p>6</p></div>
+					<div class="seat avail"><p>7</p></div>
 					<div class="seat busy"><p>8</p></div>
 					<div class="seat busy"><p>9</p></div>
 					<div class="seat busy"><p>10</p></div>
-					<div class="seat busy"><p>11</p></div>
+					<div class="seat avail"><p>11</p></div>
 				</div>
 				<div class="r d-flex justify-content-center" id="r7">
-					<div class="seat busy"><p>1</p></div>
+					<div class="seat avail"><p>1</p></div>
 					<div class="seat busy"><p>2</p></div>
 					<div class="seat busy"><p>3</p></div>
 					<div class="seat busy"><p>4</p></div>
 					<div class="seat busy"><p>5</p></div>
 					<div class="seat busy"><p>6</p></div>
-					<div class="seat busy"><p>7</p></div>
-					<div class="seat busy"><p>8</p></div>
-					<div class="seat busy"><p>9</p></div>
+					<div class="seat avail"><p>7</p></div>
+					<div class="seat avail"><p>8</p></div>
+					<div class="seat avail"><p>9</p></div>
 					<div class="seat busy"><p>10</p></div>
 					<div class="seat busy"><p>11</p></div>
 					<div class="seat busy"><p>12</p></div>
 				</div>
 			</div>
 			<div class="hints d-flex justify-content-center d-flex justify-content-center">
-				<div class="d-flex"><div class="seat1 busy"></div><p>Занято</p></div>
-				<div class="d-flex"><div class="seat1 avail1"></div><p>Свободно</p></div>
-				<div class="d-flex"><div class="seat1 chosen1"></div><p>Выбрано</p></div>
+				<div class="d-flex"><div class="seat1 busy"></div><p class="seat11">Занято</p></div>
+				<div class="d-flex"><div class="seat1 avail1"></div><p class="seat11">Свободно</p></div>
+				<div class="d-flex"><div class="seat1 chosen1"></div><p class="seat11">Выбрано</p></div>
 			</div>
 			<div class="you_chose">
 				Вы выбрали:

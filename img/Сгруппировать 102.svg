@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="428" height="580.5" viewBox="0 0 428 580.5">
+  <defs>
+    <filter id="Прямоугольник_77" x="0" y="0" width="428" height="580.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.51"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_102" data-name="Сгруппировать 102" transform="translate(-5558 930)">
+    <g transform="matrix(1, 0, 0, 1, 5558, -930)" filter="url(#Прямоугольник_77)">
+      <rect id="Прямоугольник_77-2" data-name="Прямоугольник 77" width="368" height="520.5" rx="19" transform="translate(30 27)" fill="#f2b807"/>
+    </g>
+    <g id="Сгруппировать_91" data-name="Сгруппировать 91">
+      <g id="Прямоугольник_78" data-name="Прямоугольник 78" transform="translate(5658 -867)" fill="none" stroke="#101010" stroke-width="4">
+        <rect width="229" height="61" rx="30.5" stroke="none"/>
+        <rect x="2" y="2" width="225" height="57" rx="28.5" fill="none"/>
+      </g>
+      <text id="Забронировать" transform="translate(5678 -826)" fill="#101010" font-size="26" font-family="ComicSansMS-Bold, Comic Sans MS" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">Забронировать</tspan></text>
+    </g>
+    <g id="Сгруппировать_90" data-name="Сгруппировать 90" transform="translate(0 14)">
+      <text id="Купить" transform="translate(5727 -745)" fill="#101010" font-size="26" font-family="ComicSansMS-Bold, Comic Sans MS" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">Купить</tspan></text>
+      <g id="Прямоугольник_79" data-name="Прямоугольник 79" transform="translate(5658 -786)" fill="none" stroke="#101010" stroke-width="4">
+        <rect width="229" height="61" rx="30.5" stroke="none"/>
+        <rect x="2" y="2" width="225" height="57" rx="28.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Сгруппировать_93" data-name="Сгруппировать 93">
+      <text id="Жанр:_Трагедия" data-name="Жанр: Трагедия" transform="translate(5668 -627)" fill="#101010" font-size="26" font-family="ComicSansMS-Bold, Comic Sans MS" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">Жанр: Трагедия</tspan></text>
+    </g>
+  </g>
+</svg>
